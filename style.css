@@ -1,0 +1,133 @@
+::selection , input::selection ,textarea::selection{ /*Selection Colors a*/
+    background-color: #cccccc !important;
+    color: #000 !important;
+}
+
+body , #contentCol , .photoUfiContainer , #mainContainer  {
+    background-color: #eeeeee !important;
+}
+
+#blueBar{ /* Blue Bar Color Changed */
+    background-color: #666 !important;
+    background-image: url('http://s8.postimage.org/jj5djx4ud/blue_Bar_bg.png') ;
+    box-shadow: 0 1px 10px 1px #666666 !important;
+    border-bottom: #000 !important;
+
+}
+
+a.jewelButton { /* Blue bar Icons Added*/
+    /*background-image: url('http://www.enhanzz.com/chrome-extensions/-QiP6gUz6PQ.png') !important ;*/
+    background-image: url('http://s7.postimage.org/wvezdr8ff/Qi_P6g_Uz6_PQ.png') !important ;
+
+}
+
+
+#pageLogo a:hover , .jewelButton:hover , .navLink:hover , .navSubmenu:hover  { /* blueBar Hover added  */
+    background-color: #666666 !important ;
+    color: white !important;
+    border: #666;
+}
+
+#pageNav .navLink::after { /* Divivers Right top corner added */
+    background-color: #666 !important
+}
+
+.navigation a:hover{ /* top right li added */
+
+    border: 1px #cccccc solid !important;
+
+}
+/*#blueBar:hover{
+    color: white !important;
+}
+*/
+
+.fbNubFlyoutTitlebar,.fbNubFlyoutInner{ /* Chat Open Heade BG  */
+    background-color: #000 !important ;
+    /*background-image: url('http://www.enhanzz.com/chrome-extensions/titleBar_bg.png') ;*/
+    background-image: url('http://s11.postimage.org/b8lmr4373/title_Bar_bg.png') !important ;
+    border-top-color: #000 !important ;
+}
+
+.fbNubButton , .fbNub , .fbMercuryChatTab , .user , .chatOffline ,.fbCalendarOverlayHeader{ /* Chat Closed Heade BG  */
+    background-image: url('http://s11.postimage.org/b8lmr4373/title_Bar_bg.png') !important ;
+    /*background-image: url('http://www.enhanzz.com/chrome-extensions/titleBar_bg.png')  !important ;*/
+    background-color: #fff !important;
+
+}
+
+.fbNubButton{ /* Chat closed Text Added */
+    color: #fff !important;
+    border: 1px #000 solid !important;
+    border: none !important;
+}
+
+.uiSideNavCount{ /* left nav count added */
+    background-color: #666 !important;
+    color: #fff !important;;
+}
+
+
+/*.offline.error{ chat offline icon added
+    background-image: url('http://www.enhanzz.com/chrome-extensions/42NpRHYIj_U.png')  !important ;
+}*/
+
+.timelineReportHeader{
+    /* background-image: url('http://www.enhanzz.com/chrome-extensions/timelineHead_bg.png')  !important ;
+     background-color: #f7f7f7 !important*/
+
+}
+
+/*.fsl span{
+ color: #666 !important;   
+ font-weight: bold;
+}*/
+
+._42fu , .uiButtonConfirm{ /* confirm button Added */
+    background-image: url('http://www.enhanzz.com/chrome-extensions/49A13F0P6M_.png') !important ;
+    background-color: #666 !important;
+    border: 1px #000 solid !important
+}
+
+
+.item{ /* left nav borders added */
+    border-bottom: 1px #e6e6e6 solid  !important;
+}
+
+.fbRemindersStory:hover{ /* right nav hover added */
+    background-color: #f7f7f7 !important
+}
+
+
+#contentCurve  , #pageFooter{
+    background-color: transparent !important;
+}
+
+._kv{
+    background-color: #666666 !important;
+    border: 1px #666 solid !important;
+}
+
+.itemAnchor:hover{
+    background-color: #666 !important;
+}
+
+.item:hover{
+    background-color: #cccccc !important
+}
+
+.item{
+    /*background-color: #cccccc !important*/
+}
+
+
+
+.uiSideNav .selectedItem .item, .uiSideNav .selectedItem .item:hover, .uiSideNav ul .selectedItem .subitem, .uiSideNav ul .selectedItem .subitem:hover{
+
+    background-color: #cccccc !important   
+}
+
+
+._s0 , .pic , .profilePhoto, ._rx{
+    border-radius: 10px;
+}
